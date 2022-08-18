@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic&family=Noto+Serif+HK:wght@500&family=Noto+Serif+KR&display=swap');
+*{
+  margin:0; /* 마진값 초기화 */
+  padding:0; /* 패딩값 초기화 */
+  box-sizing: border-box; /* 박스 영역은 테두리까지 */
+}
+
+a{
+  text-decoration: none;
+}
+
+#container{
+  margin: 0 auto; /* 화면 중앙에 배치 */
+  width: 100vw;
+  height: 100vh;
+ 
+}
+
+#left{
+  float:left;
+  width: 30vw;
+  height: 100%;
+  background-color:#0568A6;
+  
+}
+
+#logo{ 
+  float: left;
+  width: 30vw;
+  height: 8vh;
+  line-height: 8vh;
+  padding-left: 0.8em;
+}
+
+#logo h1, h3{
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: white;
+}
+
+#search{
+  float: left;
+  width:30vw;
+  height: 42%;
+}
+
+ul {
+  list-style: none;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+lable{
+  margin-right: 1em;
+  float: right;
+  width: 1em;
+  height: 1em;
+}
+
+#startPoint{
+  font-family: 'Noto Serif KR', serif;
+  font-size:1em;
+  border: none;
+  text-align:center;
+}
+#startPoint:hover{
+  background-color: rgb(244, 244, 244);
+}
+
+
+#endPoint{
+  font-family: 'Noto Serif KR', serif;
+  font-size:1em;
+  text-align:center;
+  border: none;
+}
+#endPoint:hover{
+  background-color: rgb(244, 244, 244);
+}
+
+
+
+select{
+  margin:1em;
+  background-color: white;
+  border-color: black;
+  width: 20vw;
+  height: 7vh;
+  border-radius: 4em;
+}
+button{
+  width:6em;
+  height: 3em;
+  float: right;
+  margin: 3em;
+  font-family: 'Noto Serif KR', serif;
+  border: none;
+  border-radius: 1em;
+  background: white;
+}
+
+button:hover{
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
+
+#result{
+  display: flex;
+  justify-content: center;
+
+  float: left;
+  width: 30vw;
+  height: 50%;
+}
+
+#box{
+  font-family: 'Noto Serif KR', serif;
+  color: black;
+  width: 25vw;
+  height: 22vw;
+  background-color: white;
+  border-radius: 3em;
+  text-align: center;
+  padding: 3em;
+}
+
+#map{
+  width: 100vw;
+  height: 100%;
+  
+}
+
+
+
+
+
+
