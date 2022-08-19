@@ -1,9 +1,21 @@
+@CHARSET "UTF-8"; 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic&family=Noto+Serif+HK:wght@500&family=Noto+Serif+KR&display=swap');
 *{
   margin:0; /* 마진값 초기화 */
   padding:0; /* 패딩값 초기화 */
   box-sizing: border-box; /* 박스 영역은 테두리까지 */
 }
+
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css); 
+.hanna { font-family: 'hanna'; } 
+.nanum { font-family: 'Nanum Barun Gothic'; } 
+/*폰트 추가*/
+
+body, table, div, p{ font-family: 'Nanum Barun Gothic';font-weight: bold; }
 
 a{
   text-decoration: none;
@@ -33,7 +45,7 @@ a{
 }
 
 #logo h1, h3{
-  font-family: 'Noto Serif KR', serif;
+  font-family: 'Nanum Barun Gothic';
   font-weight: 400;
   font-size: 1.5em;
   color: white;
@@ -60,7 +72,7 @@ lable{
 }
 
 #startPoint{
-  font-family: 'Noto Serif KR', serif;
+  font-family: 'Nanum Barun Gothic';
   font-size:1em;
   border: none;
   text-align:center;
@@ -71,7 +83,7 @@ lable{
 
 
 #endPoint{
-  font-family: 'Noto Serif KR', serif;
+  font-family: 'Nanum Barun Gothic';
   font-size:1em;
   text-align:center;
   border: none;
@@ -95,7 +107,7 @@ button{
   height: 3em;
   float: right;
   margin: 3em;
-  font-family: 'Noto Serif KR', serif;
+  font-family: 'Nanum Barun Gothic';
   border: none;
   border-radius: 1em;
   background: white;
@@ -116,7 +128,7 @@ button:hover{
 }
 
 #box{
-  font-family: 'Noto Serif KR', serif;
+  font-family: 'Nanum Barun Gothic';
   color: black;
   width: 25vw;
   height: 22vw;
